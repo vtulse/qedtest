@@ -20,7 +20,7 @@ class QedRestServices extends ControllerBase {
 
       $client = new Client(
         [
-          'base_uri'  => "http://www.omdbapi.com/?",
+          'base_uri'  => "http://www.omdbapi.com/?apikey=b532c101&",
         ]
       );
       $res = $client->request(
