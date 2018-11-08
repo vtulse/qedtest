@@ -1,0 +1,19 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function qedrest_form_node_movies_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+
+  $form['featchdata'] =  [
+    '#type' => 'button',
+    '#value' => t('Featch Data'),
+    '#weight' => 121,
+    '#ajax' => [
+        'callback' => '::submitForm',
+    ],
+  ];
+
+}

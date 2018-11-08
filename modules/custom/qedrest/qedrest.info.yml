@@ -1,0 +1,5 @@
+name: QED REST API
+type: module
+description: 'Get a response code from any URL using Guzzle'
+core: 8.x
+package: 'Rest API'

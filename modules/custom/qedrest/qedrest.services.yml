@@ -1,0 +1,5 @@
+services:
+  qedrest:
+    class: Drupal\qedrest\Services\Http\QedRestServices
+    arguments: []
+
