@@ -7,7 +7,7 @@ use Drupal\Core\Controller\ControllerBase;
 /**
  * Get a response code from any URL using Guzzle in Drupal 8.
  */
-class QedRestServices extends ControllerBase {
+class MoviesController extends ControllerBase {
 
   /**
    * {@inheritdoc}

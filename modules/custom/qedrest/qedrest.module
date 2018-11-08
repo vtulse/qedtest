@@ -12,7 +12,7 @@ function qedrest_form_node_movies_form_alter(&$form, FormStateInterface $form_st
     '#value' => t('Featch Data'),
     '#weight' => 121,
     '#ajax' => [
-        'callback' => '::submitForm',
+        'callback' => 'Drupal\qedrest\Controller\MoviesController::getData',
     ],
   ];
 
